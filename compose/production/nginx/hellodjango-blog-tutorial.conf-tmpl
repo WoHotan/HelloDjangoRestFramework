@@ -3,7 +3,7 @@ upstream hellodjango_blog_tutorial  {
 }
 
 server {
-    server_name  hellodjango-blog-tutorial-demo.zmrenwu.com;
+    server_name  182.92.92.67;
 
     location /static {
         alias /apps/hellodjango_blog_tutorial/static;
